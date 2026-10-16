@@ -1,0 +1,76 @@
+body {
+	font-family: Lato;
+	font-feature-settings: 'liga' 0;
+	margin: 0;
+	background-color: rgba(236,236,236,1);
+	color: rgba(33,33,33,1);
+	font-size: 11pt;
+	line-height: 1.6667;
+}
+
+header {
+	/*height: 25vh;*/
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/southerns2026.png);
+	text-align: center;
+	padding: 3vh 10vw;
+}
+
+header span {
+	font-weight: 700;
+	font-size: 30pt;
+	line-height: 1.75;
+	color: white;
+	letter-spacing: 1.1;
+}
+
+#comps-delegates {
+	padding: 2vh 8vw;
+	height: 20vw;
+	text-align: center;
+}
+
+#comps {
+	width: 40vw;
+	float: left;
+}
+
+#del {
+	width: 40vw;
+	float: right;
+}
+
+h2 {
+	font-weight: 400;
+	color: blue;
+}
+
+#comps-delegates {
+	height: 27vh;
+}
+
+.more-info {
+	background-color: rgba(0,68,247,1);
+	border-color: white;
+	border-radius: 3px;
+	padding: 10px 0; 
+	width: 40vw; 
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+/*footer {
+	background-color: blue;
+}*/
+
+#mailinglist {
+	background-color: rgba(0,68,247,1);
+	color: white;
+	text-align: center;
+}
+
+#mailinglist span {
+	font-size: 14pt;
+	font-weight: 700;
+}
